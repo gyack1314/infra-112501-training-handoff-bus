@@ -1,0 +1,9 @@
+{"timestamp": 0, "type": "manifest", "data": {"site": "west", "run": "r7", "revision": 1, "collection": "sha-b", "use": "audit"}}
+{"timestamp": 1, "type": "manifest", "data": {"site": "west", "run": "r7", "revision": 2, "collection": "sha-c", "use": "training"}}
+{"timestamp": 2, "type": "signoff", "data": {"site": "west", "run": "r7", "revision": 1, "use": "audit", "decision": "accepted"}}
+{"timestamp": 3, "type": "signoff", "data": {"site": "west", "run": "r7", "revision": 2, "use": "audit", "decision": "accepted"}}
+{"timestamp": 4, "type": "inspect", "data": {"site": "west", "run": "r7"}}
+{"timestamp": 5, "type": "signoff", "data": {"site": "west", "run": "r7", "revision": 2, "use": "training", "decision": "accepted"}}
+{"timestamp": 6, "type": "prepare_ack", "data": {"site": "west", "run": "r7", "revision": 2, "reservation": "reservation:1", "outcome": "refused"}}
+{"timestamp": 7, "type": "manifest", "data": {"site": "west", "run": "r7", "revision": 3, "collection": "sha-d", "use": "training"}}
+{"timestamp": 8, "type": "inspect", "data": {"site": "west", "run": "r7"}}

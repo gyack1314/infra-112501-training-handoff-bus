@@ -1,0 +1,15 @@
+{"timestamp": 0, "type": "manifest", "data": {"site": "east", "run": "r41", "revision": 1, "collection": "sha-a", "use": "training"}}
+{"timestamp": 1, "type": "signoff", "data": {"site": "east", "run": "r41", "revision": 1, "use": "training", "decision": "accepted"}}
+{"timestamp": 2, "type": "prepare_ack", "data": {"site": "east", "run": "r41", "revision": 1, "reservation": "reservation:1", "outcome": "reserved"}}
+{"timestamp": 3, "type": "void", "data": {"site": "east", "run": "r41"}}
+{"timestamp": 4, "type": "receipt", "data": {"site": "east", "run": "r41", "reservation": "reservation:1", "outcome": "unknown"}}
+{"timestamp": 5, "type": "inspect", "data": {"site": "east", "run": "r41"}}
+{"timestamp": 6, "type": "receipt", "data": {"site": "east", "run": "r41", "reservation": "reservation:1", "outcome": "committed"}}
+{"timestamp": 7, "type": "receive", "data": {"client": "schedule", "site": "east", "run": "r41"}}
+{"timestamp": 8, "type": "ack", "data": {"client": "schedule", "site": "east", "run": "r41", "delivery": "delivery:1"}}
+{"timestamp": 9, "type": "inspect", "data": {"site": "east", "run": "r41"}}
+{"timestamp": 9, "type": "start_next", "data": {"site": "east", "run": "r41", "next_run": "r42"}}
+{"timestamp": 10, "type": "withdraw_ack", "data": {"site": "east", "run": "r41", "reservation": "reservation:1"}}
+{"timestamp": 11, "type": "receive", "data": {"client": "schedule", "site": "east", "run": "r41"}}
+{"timestamp": 12, "type": "receive", "data": {"client": "sample-index", "site": "east", "run": "r41"}}
+{"timestamp": 13, "type": "inspect", "data": {"site": "east", "run": "r41"}}
